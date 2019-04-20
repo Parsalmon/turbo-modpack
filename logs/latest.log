@@ -1,14 +1,930 @@
-[18:36:23] [Client thread/INFO]: Setting user: xXMagmaHDXx
-[18:36:24] [Client thread/INFO]: LWJGL Version: 3.1.6 build 14
-[18:36:25] [Client thread/INFO]: Reloading ResourceManager: Default
-[18:36:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[18:36:26] [Thread-2/INFO]: Initializing No Sound
-[18:36:26] [Thread-2/INFO]: (Silent Mode)
-[18:36:26] [Thread-2/INFO]: OpenAL initialized.
-[18:36:26] [Sound Library Loader/INFO]: Preloading sound minecraft:sounds/ambient/underwater/underwater_ambience.ogg
-[18:36:26] [Sound Library Loader/INFO]: Sound engine started
-[18:36:28] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[18:36:29] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[18:36:39] [Client thread/INFO]: Stopping!
-[18:36:40] [Client thread/INFO]: SoundSystem shutting down...
-[18:36:40] [Client thread/INFO]: SoundSystem Author: Paul Lamb, www.paulscode.com
+[22:11:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:11:20] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:11:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:11:20] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2836 for Minecraft 1.12.2 loading
+[22:11:20] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows Server 2016:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_191
+[22:11:20] [main/INFO] [FML]: Searching C:\multimc\MultiMC\instances\turbo-modpack\.minecraft\mods for mods
+[22:11:20] [main/INFO] [FML]: Searching C:\multimc\MultiMC\instances\turbo-modpack\.minecraft\mods\1.12.2 for mods
+[22:11:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AdvancedRocketry-1.12.2-1.5.0-139-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:20] [main/WARN] [FML]: The coremod AdvancedRocketryPlugin (zmaster587.advancedRocketry.asm.AdvancedRocketryPlugin) is not signed!
+[22:11:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Aroma1997Core-1.12.2-2.0.0.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:20] [main/WARN] [FML]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:20] [main/INFO] [FML]: Loading tweaker codechicken.asm.internal.Tweaker from ChickenASM-1.12-1.0.2.7.jar
+[22:11:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-0.3.3.22.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:20] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:20] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[22:11:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ExpandedEquivalence-1.12.2-11b.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:20] [main/WARN] [FML]: The coremod com.zeitheron.expequiv.core.EECore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:20] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:20] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[22:11:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in HammerCore-1.12.2-2.0.4.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:20] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in logisticspipes-0.10.1.112.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:21] [main/WARN] [FML]: The coremod logisticspipes.asm.LogisticsPipesCoreLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:21] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[22:11:21] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from movingworld-1.12-6.342-full.jar
+[22:11:21] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenComputers-MC1.12.2-1.7.4.153.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:21] [main/WARN] [FML]: The coremod li.cil.oc.common.launch.TransformerLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:21] [main/WARN] [FML]: The coremod TransformerLoader (li.cil.oc.common.launch.TransformerLoader) is not signed!
+[22:11:21] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenModsLib-1.12.2-0.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:21] [main/WARN] [FML]: The coremod openmods.core.OpenModsCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:21] [main/WARN] [FML]: The coremod OTGCorePlugin (com.pg85.otg.forge.asm.launch.OTGCorePlugin) is not signed!
+[22:11:21] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.5-146.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:21] [main/WARN] [FML]: The coremod vazkii.quark.base.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:21] [main/WARN] [FML]: The coremod LoadingPlugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[22:11:21] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ResourceLoader-MC1.12.1-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:11:21] [main/WARN] [FML]: The coremod lumien.resourceloader.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:21] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:11:21] [main/INFO] [LaunchWrapper]: Loading tweak class name codechicken.asm.internal.Tweaker
+[22:11:21] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[22:11:21] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/multimc/MultiMC/instances/turbo-modpack/.minecraft/mods/malisiscore-1.12.2-6.5.1.jar Service=LaunchWrapper Env=CLIENT
+[22:11:21] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:21] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[22:11:21] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[22:11:21] [main/WARN] [FML]: The coremod com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:11:21] [main/WARN] [FML]: The coremod MovingWorldCore (com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod) is not signed!
+[22:11:21] [main/ERROR] [mixin]: Mixin config mixins.movingworld.json does not specify "minVersion" property
+[22:11:21] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[22:11:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:11:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:11:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:11:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:11:22] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [Aroma1997Core]: Finished data injection.
+[22:11:22] [main/INFO] [Aroma1997Core]: Finished data injection.
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class codechicken.asm.internal.Tweaker
+[22:11:22] [main/INFO] [STDOUT]: [codechicken.asm.internal.Tweaker:injectIntoClassLoader:30]: false
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[22:11:22] [main/ERROR] [mixin]: Mixin config mixins.movingworld.json does not specify "minVersion" property
+[22:11:22] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4d27d9d
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:11:22] [main/ERROR] [LaunchWrapper]: A critical problem occurred registering the ASM transformer class 
+java.lang.ClassNotFoundException: 
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.LaunchClassLoader.registerTransformer(LaunchClassLoader.java:88) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.fml.common.launcher.FMLDeobfTweaker.injectIntoClassLoader(FMLDeobfTweaker.java:46) [forge-1.12.2-14.23.5.2836-universal.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	... 14 more
+[22:11:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:11:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:11:23] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[22:11:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:11:23] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[22:11:23] [main/WARN] [mixin]: Reference map 'movingworld.mixin.refmap.json' for mixins.movingworld.json could not be read. If this is a development environment you can ignore this message
+[22:11:23] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.world.World (amu)...
+[22:11:23] [main/INFO] [Hammer Core [ASM]]:   -Patching World...
+[22:11:23] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.com.zeitheron.hammercore.asm.HammerCoreTransformer' was detected and will no longer process meta class data
+[22:11:23] [main/INFO] [FML]: [Quark ASM] Transforming WorldServer
+[22:11:23] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e, g] Descriptor ()Z / ()Z)
+[22:11:23] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:23] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[22:11:23] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:23] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.vazkii.quark.base.asm.ClassTransformer' was detected and will no longer process meta class data
+[22:11:23] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[22:11:23] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[22:11:23] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.client.renderer.RenderItem], Method [func_180453_a, func_184391_a]
+[22:11:23] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.client.renderer.RenderItem Finished.
+[22:11:23] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.com.pg85.otg.forge.asm.OTGClassTransformer' was detected and will no longer process meta class data
+[22:11:23] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:11:24] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.world.World (amu)...
+[22:11:24] [main/INFO] [Hammer Core [ASM]]:   -Patching World...
+[22:11:24] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[22:11:24] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[22:11:24] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[22:11:24] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.entity.EntityLivingBase (vp)...
+[22:11:24] [main/INFO] [Hammer Core [ASM]]:   -Patching EntityLivingBase
+[22:11:24] [main/INFO] [Hammer Core [ASM]]:     -Modified method 'onItemUseFinish': added event call.
+[22:11:24] [main/INFO] [FML]: [Quark ASM] Transforming WorldServer
+[22:11:24] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e, g] Descriptor ()Z / ()Z)
+[22:11:24] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:24] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[22:11:24] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:24] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraftforge.client.ForgeHooksClient (net.minecraftforge.client.ForgeHooksClient)...
+[22:11:24] [main/INFO] [Hammer Core [ASM]]:   -Patching ForgeHooksClient
+[22:11:24] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[22:11:24] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[22:11:24] [main/INFO] [OpenComputers]: Successfully patched net/minecraft/entity/EntityLiving.recreateLeash.
+[22:11:24] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: xXMagmaHDXx
+[22:11:24] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[22:11:24] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: java.lang.RuntimeException: OTG is not compatible with this version of Forge.
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at com.pg85.otg.forge.asm.OTGClassTransformer.transformOnUpdateItem(OTGClassTransformer.java:580)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at com.pg85.otg.forge.asm.OTGClassTransformer.transform(OTGClassTransformer.java:104)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at com.pg85.otg.forge.asm.OTGClassTransformer.transform(OTGClassTransformer.java:65)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:256)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at net.minecraft.init.Bootstrap.func_151354_b(Bootstrap.java:498)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:365)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+[22:11:25] [Client thread/INFO] [STDERR]: [com.pg85.otg.forge.asm.OTGClassTransformer:transform:141]: 	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[22:11:25] [Client thread/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.tileentity.TileEntityLockableLoot (awa)...
+[22:11:25] [Client thread/INFO] [Hammer Core [ASM]]:   -Patching TileEntityLockableLoot
+[22:11:25] [Client thread/INFO] [Hammer Core [ASM]]:     -Modified method 'fillWithLoot': added 'withPlayer(player)' after 'withLuck(player.getLuck())'
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Transforming BlockPistonBase
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [doMove, func_176319_a, a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z / (Lamu;Let;Lfa;Z)Z)
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node ALOAD 5
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [canPush, func_185646_a, a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z / (Lawt;Lamu;Let;Lfa;ZLfa;)Z)
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL aow.hasTileEntity (Lawt;)Z
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Transforming TileEntityPiston
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [update, func_73660_a, e] Descriptor ()V / ()V)
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node L0
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f, j] Descriptor ()V / ()V)
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL amu.a (Let;Lawt;I)Z
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [update, func_73660_a, e] Descriptor ()V / ()V)
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL amu.a (Let;Lawt;I)Z
+[22:11:25] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:25] [Client thread/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Transforming EntityBoat
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [attackEntityFrom, func_70097_a, a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z / (Lur;F)Z)
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node POP
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [onUpdate, func_70071_h_, B_] Descriptor ()V / ()V)
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node L0
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Transforming ItemBanner
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a, a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V / (Laip;Ljava/util/List;)V)
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 6
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:26] [Client thread/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.ai.EntityAICreeperSwell], Method [func_75246_d]
+[22:11:26] [Client thread/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.ai.EntityAICreeperSwell Finished.
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Transforming RecipeAddPattern
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [matches, func_77569_a, a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z / (Lafy;Lamu;)Z)
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 6
+[22:11:26] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Transforming ContainerMerchant
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [transferStackInSlot, func_82846_b, b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack; / (Laed;I)Laip;)
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 39
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 39
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 30
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Adding invokestatic to 30/3
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 30
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Adding invokestatic to 30/4
+[22:11:27] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:27] [Client thread/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.inventory.ContainerFurnace], Method [func_82846_b]
+[22:11:27] [Client thread/INFO] [EnderCore ASM]: Transforming net.minecraft.inventory.ContainerFurnace Finished.
+[22:11:27] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[22:11:27] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows Server 2016 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1706118384 bytes (1627 MB) / 2138046464 bytes (2039 MB) up to 7635730432 bytes (7282 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx8192m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+HCASM (HammerCore-1.12.2-2.0.4.4.jar)
+  com.zeitheron.hammercore.asm.HammerCoreTransformer
+LoadingPlugin (Quark-r1.5-146.jar)
+  vazkii.quark.base.asm.ClassTransformer
+OTGCorePlugin (OTG-Core.jar)
+  com.pg85.otg.forge.asm.OTGClassTransformer
+OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  openmods.core.OpenModsClassTransformer
+TransformerLoader (OpenComputers-MC1.12.2-1.7.4.153.jar)
+  li.cil.oc.common.asm.ClassTransformer
+LogisticsPipesCoreLoader (logisticspipes-0.10.1.112.jar)
+  logisticspipes.asm.LogisticsClassTransformer
+AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.5.0-139-universal.jar)
+  zmaster587.advancedRocketry.asm.ClassTransformer
+ForgelinPlugin (Forgelin-1.8.2.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-0.3.3.22.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-89.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+EnderCorePlugin (EnderCore-1.12.2-0.5.57-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  
+CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  
+MovingWorldCore (movingworld-1.12-6.342-full.jar)
+  
+EECore (ExpandedEquivalence-1.12.2-11b.jar)
+  com.zeitheron.expequiv.core.EETransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 417.35' Renderer: 'GeForce GTX 1060 6GB/PCIe/SSE2'
+[22:11:27] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2836 Initialized
+[22:11:27] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:11:27] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:11:27] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:11:28] [Client thread/INFO] [STDOUT]: [zmaster587.advancedRocketry.asm.ModContainer:<init>:23]: ********* CoreDummyContainer. OK
+[22:11:28] [Client thread/INFO] [FML]: Searching C:\multimc\MultiMC\instances\turbo-modpack\.minecraft\mods for mods
+[22:11:28] [Client thread/INFO] [FML]: Searching C:\multimc\MultiMC\instances\turbo-modpack\.minecraft\mods\1.12.2 for mods
+[22:11:28] [Client thread/WARN] [FML]: Mod aroma1997core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.2
+[22:11:28] [Client thread/WARN] [FML]: Mod aroma1997sdimension is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.2
+[22:11:28] [Client thread/WARN] [FML]: Mod betterbuilderswands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.11.1
+[22:11:29] [Client thread/INFO] [FML]: Mod careerbees is missing the required element 'name'. Substituting careerbees
+[22:11:29] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.2.353
+[22:11:29] [Client thread/WARN] [FML]: Mod compactsolars is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-5.0.18.341
+[22:11:30] [Thread-5/INFO] [FML]: Using sync timing. 200 frames of Display.update took 73498839 nanos
+[22:11:30] [Client thread/WARN] [FML]: Mod enderstorage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.5.135
+[22:11:30] [Client thread/WARN] [FML]: Mod microblockcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.6.1.81
+[22:11:30] [Client thread/WARN] [FML]: Mod forgemultipartcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.6.1.81
+[22:11:30] [Client thread/WARN] [FML]: Mod minecraftmultipartcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.6.1.81
+[22:11:32] [Client thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.59.842
+[22:11:32] [Client thread/WARN] [FML]: Mod logisticspipes is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.10.1.112
+[22:11:32] [Client thread/WARN] [FML]: Mod magicbees is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[22:11:32] [Client thread/WARN] [FML]: Mod mekanismgenerators is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-9.7.1.371
+[22:11:32] [Client thread/ERROR] [FML]: Unable to parse dependency for mod 'modularforcefieldsystem' with dependency string 'after:EnderIO'. The modId 'EnderIO' must be all lowercase.
+[22:11:32] [Client thread/WARN] [FML]: Mod mrtjpcore is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.3.35
+[22:11:33] [Client thread/WARN] [FML]: Mod projectred-core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[22:11:33] [Client thread/WARN] [FML]: Mod projectred-integration is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[22:11:33] [Client thread/WARN] [FML]: Mod projectred-transmission is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[22:11:33] [Client thread/WARN] [FML]: Mod projectred-illumination is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[22:11:33] [Client thread/WARN] [FML]: Mod projectred-expansion is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[22:11:33] [Client thread/WARN] [FML]: Mod projectred-relocation is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[22:11:33] [Client thread/WARN] [FML]: Mod projectred-transportation is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[22:11:33] [Client thread/WARN] [FML]: Mod projectred-exploration is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[22:11:33] [Client thread/WARN] [FML]: Mod signals is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.4.1-30
+[22:11:34] [Client thread/INFO] [FML]: Forge Mod Loader has identified 250 mods to load
+[22:11:34] [Client thread/INFO] [FML]: Found mod(s) [p455w0rdslib] containing declared API package moze_intel.projecte.api (owned by projecte) without associated API reference
+[22:11:34] [Client thread/INFO] [FML]: Found mod(s) [projecte] containing declared API package moze_intel.projecte.api (owned by ProjectE) without associated API reference
+[22:11:34] [Client thread/INFO] [STDOUT]: [zmaster587.advancedRocketry.asm.ModContainer:registerBus:42]: ********* registerBus. OK
+[22:11:34] [Client thread/INFO] [FML]: FML has found a non-mod file hbm1.0.26.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:11:34] [Client thread/INFO] [FML]: FML has found a non-mod file Stefinus+Guns-0.5.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:11:34] [Client thread/INFO] [FML]: FML has found a non-mod file Superheroes+Unlimited-1.7.10-5.0+Alpha+4.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:11:34] [Client thread/INFO] [FML]: FML has found a non-mod file TravellersGear-1.7.10-1.16.6.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:11:34] [Client thread/INFO] [FML]: FML has found a non-mod file AutoSave-1.12.2-1.0.10.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:11:34] [Client thread/INFO] [FML]: FML has found a non-mod file AutoConfig-1.12.2-1.0.1.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[22:11:36] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, advancedrocketrycore, otgcore, com.elytradev.movingworld.common.asm.coremod, openmodscore, opencomputers|core, actuallyadditions, additionalpipes, advanced_machines, advanced_solar_panels, advancedrocketry, ae2stuff, ae2wtlib, agricraft, appliedenergistics2, appliedintegrations, aroma1997core, aroma1997sdimension, autoreglib, auxiliumequivalence, base, baubles, bcextrapipes, bcoreprocessing, bdlib, beebetteratbees, betteragriculture, betterbuilderswands, bibliocraft, binniecore, botany, binniedesign, extrabees, extratrees, genetics, biomesoplenty, byg, bookshelf, botania, brandonscore, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, careerbees, catwalks, chameleon, chesttransporter, chickens, chisel, chiselsandbits, codechickenlib, cofhcore, cofhworld, commoncapabilities, compacter, compactsolars, contenttweaker, controlling, extendedrenderer, coroutil, configmod, ctgui, crafttweaker, crafttweakerjei, ctm, cucumber, custommainmenu, cyclopscore, davincisvessels, dldungeonsjbg, draconicevolution, mocreatures, dynamictrees, dynamictreestc, endercore, enderio, enderiobase, enderioconduits, enderioconduitsappliedenergistics, enderioconduitsopencomputers, enderioconduitsrefinedstorage, enderiointegrationforestry, enderiointegrationtic, enderiointegrationticlate, enderiomachines, enderiopowertools, enderstorage, endertweaker, environmentaltech, equivalentenergistics, exoticbirds, expequiv, extracells, extrautils2, bigreactors, familiarfauna, floodlights, forestry, forgelin, microblockcbe, forgemultipartcbe, minecraftmultipartcbe, fortunate, ftblib, ftbutilities, ftbbackups, funkylocomotion, fpfa, fp, fp.api, gamestages, gendustry, gendustryjei, advgenerators, guideapi, hammercore, hats, waila, icbmclassic, ichunutil, mts, immersivecables, immersivepetroleum, immersiverailroading, ic2, industrialforegoing, infinitylib, integrateddynamics, integrateddynamicscompat, integratedtunnels, integratedtunnelscompat, integrationforegoing, inventorytweaks, ironbackpacks, ironchest, irontanks, jehc, jei, jeibees, journeymap, jee, jeresources, libvulpes, logisticalautomation, logisticspipes, magicbees, malisiscore, malisisdoors, mantle, mcjtylib_ng, mekanism, mekanismgenerators, modularforcefieldsystem, modtweaker, morebees, morph, morpheus, mousetweaks, movingworld, mrtjpcore, mtlib, mtsofficialpack, multifarmcrops, mystcraft, mysticalagriculture, natura, netherportalfix, nei, omlib, openblocks, opencomputers, openmods, openmodularturrets, openterraingenerator, oreexcavation, otgskylands, p455w0rdslib, packagedauto, harvestcraft, placebo, portalgun, projecte, projectred-core, projectred-integration, projectred-transmission, projectred-illumination, projectred-expansion, projectred-relocation, projectred-transportation, projectred-exploration, psi, quark, railcraft, rangedpumps, reborncore, redstoneflux, resourceloader, resynth, rftools, rftoolscontrol, roguelike, sgcraft, signals, spacecraftx, spatialservermod, storagedrawers, tconstruct, techreborn, teslacorelib, teslacorelib_registries, thaumcraft, thaumicenergistics, thermalcultivation, thermalfoundation, thermalinnovation, thutcore_compat, thutcore, thuttech, tinkertoolleveling, toastcontrol, tombmanygraves, torchmaster, trackapi, traverse, tumbleweed, twilightforest, unidict, unifieditems, universalmodifiers, valkyrielib, wailaharvestability, wanionlib, wawla, weather2, wct, woot, yabba, zerocore, immersiveengineering, reauth, techreborn_compat] at CLIENT
+[22:11:36] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, advancedrocketrycore, otgcore, com.elytradev.movingworld.common.asm.coremod, openmodscore, opencomputers|core, actuallyadditions, additionalpipes, advanced_machines, advanced_solar_panels, advancedrocketry, ae2stuff, ae2wtlib, agricraft, appliedenergistics2, appliedintegrations, aroma1997core, aroma1997sdimension, autoreglib, auxiliumequivalence, base, baubles, bcextrapipes, bcoreprocessing, bdlib, beebetteratbees, betteragriculture, betterbuilderswands, bibliocraft, binniecore, botany, binniedesign, extrabees, extratrees, genetics, biomesoplenty, byg, bookshelf, botania, brandonscore, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, careerbees, catwalks, chameleon, chesttransporter, chickens, chisel, chiselsandbits, codechickenlib, cofhcore, cofhworld, commoncapabilities, compacter, compactsolars, contenttweaker, controlling, extendedrenderer, coroutil, configmod, ctgui, crafttweaker, crafttweakerjei, ctm, cucumber, custommainmenu, cyclopscore, davincisvessels, dldungeonsjbg, draconicevolution, mocreatures, dynamictrees, dynamictreestc, endercore, enderio, enderiobase, enderioconduits, enderioconduitsappliedenergistics, enderioconduitsopencomputers, enderioconduitsrefinedstorage, enderiointegrationforestry, enderiointegrationtic, enderiointegrationticlate, enderiomachines, enderiopowertools, enderstorage, endertweaker, environmentaltech, equivalentenergistics, exoticbirds, expequiv, extracells, extrautils2, bigreactors, familiarfauna, floodlights, forestry, forgelin, microblockcbe, forgemultipartcbe, minecraftmultipartcbe, fortunate, ftblib, ftbutilities, ftbbackups, funkylocomotion, fpfa, fp, fp.api, gamestages, gendustry, gendustryjei, advgenerators, guideapi, hammercore, hats, waila, icbmclassic, ichunutil, mts, immersivecables, immersivepetroleum, immersiverailroading, ic2, industrialforegoing, infinitylib, integrateddynamics, integrateddynamicscompat, integratedtunnels, integratedtunnelscompat, integrationforegoing, inventorytweaks, ironbackpacks, ironchest, irontanks, jehc, jei, jeibees, journeymap, jee, jeresources, libvulpes, logisticalautomation, logisticspipes, magicbees, malisiscore, malisisdoors, mantle, mcjtylib_ng, mekanism, mekanismgenerators, modularforcefieldsystem, modtweaker, morebees, morph, morpheus, mousetweaks, movingworld, mrtjpcore, mtlib, mtsofficialpack, multifarmcrops, mystcraft, mysticalagriculture, natura, netherportalfix, nei, omlib, openblocks, opencomputers, openmods, openmodularturrets, openterraingenerator, oreexcavation, otgskylands, p455w0rdslib, packagedauto, harvestcraft, placebo, portalgun, projecte, projectred-core, projectred-integration, projectred-transmission, projectred-illumination, projectred-expansion, projectred-relocation, projectred-transportation, projectred-exploration, psi, quark, railcraft, rangedpumps, reborncore, redstoneflux, resourceloader, resynth, rftools, rftoolscontrol, roguelike, sgcraft, signals, spacecraftx, spatialservermod, storagedrawers, tconstruct, techreborn, teslacorelib, teslacorelib_registries, thaumcraft, thaumicenergistics, thermalcultivation, thermalfoundation, thermalinnovation, thutcore_compat, thutcore, thuttech, tinkertoolleveling, toastcontrol, tombmanygraves, torchmaster, trackapi, traverse, tumbleweed, twilightforest, unidict, unifieditems, universalmodifiers, valkyrielib, wailaharvestability, wanionlib, wawla, weather2, wct, woot, yabba, zerocore, immersiveengineering, reauth, techreborn_compat] at SERVER
+[22:11:36] [Client thread/INFO] [FML]: [Quark ASM] Transforming Render
+[22:11:36] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [renderEntityOnFire, func_76977_a, a] Descriptor (Lnet/minecraft/entity/Entity;DDDF)V / (Lvg;DDDF)V)
+[22:11:36] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:36] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node L0
+[22:11:36] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:37] [Client thread/INFO] [FML]: [Quark ASM] Transforming ModelBiped
+[22:11:37] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [setRotationAngles, func_78087_a, a] Descriptor (FFFFFFLnet/minecraft/entity/Entity;)V / (FFFFFFLvg;)V)
+[22:11:37] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:37] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node RETURN
+[22:11:37] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:37] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[22:11:37] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[22:11:37] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[22:11:37] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[22:11:37] [Client thread/INFO] [OpenComputers]: Successfully patched net/minecraft/client/renderer/entity/RenderLiving.renderLeash.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.item.darksteel.upgrade.DarkSteelUpgradeMixin
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.power.forge.item.InternalPoweredItemMixin
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.integration.thaumcraft.ThaumcraftArmorMixin
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.item.darksteel.upgrade.DarkSteelUpgradeMixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.api.upgrades.IDarkSteelItem
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.power.forge.item.InternalPoweredItemMixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.power.forge.item.IInternalPoweredItem
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.integration.thaumcraft.ThaumcraftArmorMixin.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.paint.IPaintable$INonSolidBlockPaintableBlock
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.paint.IPaintable$IBlockPaintableBlock
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.paint.IPaintable$ITexturePaintableBlock
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.paint.IPaintable$ISolidBlockPaintableBlock
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelArmor from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Patching 2 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelArmor
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Added 3 new interfaces: [thaumcraft/api/items/IVisDiscountGear, thaumcraft/api/items/IGoggles, thaumcraft/api/items/IRevealer]
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Added 3 new methods: [showNodes(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;)Z, showIngamePopups(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;)Z, getVisDiscount(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;)I]
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, addCommonEntries(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V, addBasicEntries(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V]
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Successfully patched.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemInventoryCharger from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemInventoryCharger
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Added 2 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;]
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Successfully patched.
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelCrook from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelCrook
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Added 2 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;]
+[22:11:38] [Client thread/INFO] [EnderCore Mixins]: Successfully patched.
+[22:11:39] [Client thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[22:11:39] [Client thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[22:11:39] [Client thread/INFO] [tconstruct]: Preparing to take over the world
+[22:11:39] [Client thread/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.client.renderer.RenderItem (bzw)...
+[22:11:39] [Client thread/INFO] [Hammer Core [ASM]]:   -Coloring Item Glint...
+[22:11:39] [Client thread/INFO] [Hammer Core [ASM]]:     -Sending instructions to RenderItem for function renderItem
+[22:11:39] [Client thread/INFO] [Hammer Core [ASM]]:     -Sending instructions to RenderItem for function renderEffect
+[22:11:39] [Client thread/INFO] [Hammer Core [ASM]]:     -Sending instructions to RenderItem for function renderItemModel
+[22:11:39] [Client thread/INFO] [Hammer Core [ASM]]:     -Sending instructions to RenderItem for function renderItemModelIntoGUI
+[22:11:39] [Client thread/INFO] [FML]: [Quark ASM] Transforming RenderItem
+[22:11:39] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [renderItem, func_180454_a, a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V / (Laip;Lcfy;)V)
+[22:11:39] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:39] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node ALOAD 1
+[22:11:39] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:39] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [renderEffect, func_191966_a, a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V / (Lcfy;)V)
+[22:11:39] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:39] [Client thread/INFO] [FML]: [Quark ASM] Patch result: false
+[22:11:39] [Client thread/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.client.renderer.RenderItem], Method [func_180453_a, func_184391_a]
+[22:11:39] [Client thread/INFO] [EnderCore ASM]: Transforming net.minecraft.client.renderer.RenderItem Finished.
+[22:11:41] [Client thread/INFO] [Pulsar-natura]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[22:11:43] [Client thread/INFO] [brandonscore]: Brandon's Core online! Waiting for Draconic Evolution to join the party....
+[22:11:43] [Client thread/INFO] [draconicevolution]: Draconic Evolution online!
+[22:11:43] [Client thread/INFO] [brandonscore]: Hay! There you are! Now lets destroy some worlds!!
+[22:11:43] [Client thread/INFO] [draconicevolution]: Sounds like fun! Lets get to it!
+[22:11:44] [Client thread/INFO] [draconicevolution]: Hello Minecraft!!!
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.conduits.oc.conduit.OCMixin
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.conduits.me.conduit.MEMixin
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.conduits.oc.conduit.OCMixin.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.conduits.me.conduit.MEMixin.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Patching 2 mixins onto class crazypants.enderio.conduits.conduit.TileConduitBundle
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Added 2 new interfaces: [li/cil/oc/api/network/Environment, li/cil/oc/api/network/SidedEnvironment]
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Added 6 new methods: [node()Lli/cil/oc/api/network/Node;, onConnect(Lli/cil/oc/api/network/Node;)V, onDisconnect(Lli/cil/oc/api/network/Node;)V, onMessage(Lli/cil/oc/api/network/Message;)V, sidedNode(Lnet/minecraft/util/EnumFacing;)Lli/cil/oc/api/network/Node;, canConnect(Lnet/minecraft/util/EnumFacing;)Z]
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Added 1 new interface: [appeng/api/networking/IGridHost]
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Added 3 new methods: [getGridNode(Lappeng/api/util/AEPartLocation;)Lappeng/api/networking/IGridNode;, getCableConnectionType(Lappeng/api/util/AEPartLocation;)Lappeng/api/util/AECableType;, securityBreak()V]
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Successfully patched.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.conduits.me.conduit.MEMixin
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.conduits.oc.conduit.OCMixin
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.integration.forestry.upgrades.ArmorMixin
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Registered mixin.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.integration.forestry.upgrades.ArmorMixin.
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.integration.forestry.upgrades.ArmorMixin from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[22:11:44] [Client thread/INFO] [EnderCore Mixins]: Not mixing into class crazypants.enderio.integration.forestry.upgrades.ArmorMixin because it is itself a mixin
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Transforming ContainerWorkbench
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [transferStackInSlot, func_82846_b, b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack; / (Laed;I)Laip;)
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 10
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 46
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 10
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 37
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 37
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Adding invokestatic to 37/5
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 46
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Adding invokestatic to 46/6
+[22:11:47] [Client thread/INFO] [FML]: [Quark ASM] Patch result: true
+[22:11:47] [Client thread/ERROR] [FML]: The mod integratedtunnels is expecting signature bd0353b3e8a2810d60dd584e256e364bc3bedd44 for source IntegratedTunnels-1.12.2-1.6.8.jar, however there is no signature matching that description
+[22:11:49] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Actually Additions, FMLFileResourcePack:Additional Pipes, FMLFileResourcePack:Advanced Machines, FMLFileResourcePack:Advanced Solar Panels, FMLFileResourcePack:Advanced Rocketry, FMLFileResourcePack:AE2 Stuff, FMLFileResourcePack:AE2 Wireless Terminals (AE2WTLib), FMLFileResourcePack:AgriCraft, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:Applied Integrations, FMLFileResourcePack:Aroma1997Core, FMLFileResourcePack:Aroma1997's Dimensional World, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Auxilium Equivalence, FMLFileResourcePack:B.A.S.E, FMLFileResourcePack:Baubles, FMLFileResourcePack:BC eXtra Pipes, FMLFileResourcePack:BC Ore Processing, FMLFileResourcePack:BD Lib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Agriculture, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:BiblioCraft, FMLFileResourcePack:Binnie Core, FMLFileResourcePack:Binnie's Botany, FMLFileResourcePack:Binnie's Design, FMLFileResourcePack:Binnie's Extra Bees, FMLFileResourcePack:Binnie's Extra Trees, FMLFileResourcePack:Binnie's Genetics, FMLFileResourcePack:Biomes O' Plenty, FMLFileResourcePack:BiomesYouGo, FMLFileResourcePack:Bookshelf, FMLFileResourcePack:Botania, FMLFileResourcePack:Brandon's Core, FMLFileResourcePack:BuildCraft Compat, FMLFileResourcePack:BuildCraft Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BuildCraft Energy, FMLFileResourcePack:BuildCraft Factory, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BuildCraft Robotics, FMLFileResourcePack:BuildCraft Silicon, FMLFileResourcePack:BuildCraft Transport, FMLFileResourcePack:careerbees, FMLFileResourcePack:Catwalks, FMLFileResourcePack:Chameleon, FMLFileResourcePack:Chest Transporter, FMLFileResourcePack:Chickens, FMLFileResourcePack:Chisel, FMLFileResourcePack:Chisels & Bits, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:CoFH World, FMLFileResourcePack:CommonCapabilities, FMLFileResourcePack:Compacter, FMLFileResourcePack:Compact Solar Arrays, FMLFileResourcePack:ContentTweaker, FMLFileResourcePack:Controlling, FMLFileResourcePack:Extended Renderer, FMLFileResourcePack:CoroUtil Library, FMLFileResourcePack:Extended Mod Config, FMLFileResourcePack:CT-GUI, FMLFileResourcePack:CraftTweaker2, FMLFileResourcePack:CraftTweaker JEI Support, FMLFileResourcePack:CTM, FMLFileResourcePack:Cucumber Library, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:Cyclops Core, FMLFileResourcePack:Davinci's Vessels, FMLFileResourcePack:Doomlike Dungeons, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:DrZhark's Mo'Creatures Mod, FMLFileResourcePack:Dynamic Trees, FMLFileResourcePack:Dynamic Trees TC, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO, FMLFileResourcePack:Ender IO Base, FMLFileResourcePack:Ender IO Conduits, FMLFileResourcePack:Ender IO Applied Energistics Conduits, FMLFileResourcePack:Ender IO Open Computers Conduits, FMLFileResourcePack:Ender IO Refined Storage Conduits, FMLFileResourcePack:Ender IO Integration with Forestry, FMLFileResourcePack:Ender IO Integration with Tinkers' Construct, FMLFileResourcePack:Ender IO Integration with Tinkers' Construct, FMLFileResourcePack:Ender IO Machines, FMLFileResourcePack:Ender IO Powertools, FMLFileResourcePack:EnderStorage, FMLFileResourcePack:EnderTweaker, FMLFileResourcePack:Environmental Tech, FMLFileResourcePack:Equivalent Energistics, FMLFileResourcePack:Exotic Birds, FMLFileResourcePack:Expanded Equivalence, FMLFileResourcePack:Extra Cells 2, FMLFileResourcePack:Extra Utilities 2, FMLFileResourcePack:Extreme Reactors, FMLFileResourcePack:Familiar Fauna, FMLFileResourcePack:Flood Lights, FMLFileResourcePack:Forestry, FMLFileResourcePack:Shadowfacts' Forgelin, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart CBE, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:How Fortunate!, FMLFileResourcePack:FTB Library, FMLFileResourcePack:FTB Utilities, FMLFileResourcePack:FTB Utilities: Backups, FMLFileResourcePack:Funky Locomotion, FMLFileResourcePack:Futurepack Forestry Addon, FMLFileResourcePack:Futurepack, FMLFileResourcePack:Futurepack API, FMLFileResourcePack:Game Stages, FMLFileResourcePack:GenDustry, FMLFileResourcePack:Gendustry JEI Addon, FMLFileResourcePack:Advanced Generators, FMLFileResourcePack:Guide-API, FMLFileResourcePack:Hammer Core, FMLFileResourcePack:Hats, FMLFileResourcePack:Waila, FMLFileResourcePack:ICBM-Classic, FMLFileResourcePack:iChunUtil, FMLFileResourcePack:Immersive Vehicles (formerly MTS), FMLFileResourcePack:Immersive Cables, FMLFileResourcePack:Immersive Petroleum, FMLFileResourcePack:Immersive Railroading, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Industrial Foregoing, FMLFileResourcePack:InfinityLib, FMLFileResourcePack:Integrated Dynamics, FMLFileResourcePack:IntegratedDynamics-Compat, FMLFileResourcePack:Integrated Tunnels, FMLFileResourcePack:IntegratedTunnels-Compat, FMLFileResourcePack:Integration Foregoing, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Iron Backpacks, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Iron Tank, FMLFileResourcePack:Just Enough HarvestCraft, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:JEI Bees, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Just Enough Energistics, FMLFileResourcePack:Just Enough Resources, FMLFileResourcePack:Vulpes library, FMLFileResourcePack:Logistical Automation, FMLFileResourcePack:Logistics Pipes, FMLFileResourcePack:MagicBees, FMLFileResourcePack:MalisisCore, FMLFileResourcePack:MalisisDoors, FMLFileResourcePack:Mantle, FMLFileResourcePack:McJtyLib, FMLFileResourcePack:Mekanism, FMLFileResourcePack:Mekanism: Generators, FMLFileResourcePack:Modular ForceField System, FMLFileResourcePack:Mod Tweaker, FMLFileResourcePack:More Bees, FMLFileResourcePack:Morph, FMLFileResourcePack:Morpheus, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:Moving World, FMLFileResourcePack:MrTJPCore, FMLFileResourcePack:MTLib, FMLFileResourcePack:MTS Official Vehicle Pack, FMLFileResourcePack:Multifarm Crops, FMLFileResourcePack:Mystcraft, FMLFileResourcePack:Mystical Agriculture, FMLFileResourcePack:Natura, FMLFileResourcePack:NetherPortalFix, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:OMLib, FMLFileResourcePack:OpenBlocks, FMLFileResourcePack:OpenComputers, FMLFileResourcePack:OpenModsLib, FMLFileResourcePack:Open Modular Turrets, FMLFileResourcePack:Open Terrain Generator, FMLFileResourcePack:OreExcavation, FMLFileResourcePack:OTG: Skylands, FMLFileResourcePack:p455w0rd's Library, FMLFileResourcePack:PackagedAuto, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Placebo, FMLFileResourcePack:PortalGun, FMLFileResourcePack:ProjectE, FMLFileResourcePack:ProjectRed Core, FMLFileResourcePack:ProjectRed integration, FMLFileResourcePack:ProjectRed Transmission, FMLFileResourcePack:ProjectRed Illumination, FMLFileResourcePack:ProjectRed Expansion, FMLFileResourcePack:ProjectRed Relocation, FMLFileResourcePack:ProjectRed Transportation, FMLFileResourcePack:ProjectRed Exploration, FMLFileResourcePack:Psi, FMLFileResourcePack:Quark, FMLFileResourcePack:Railcraft, FMLFileResourcePack:Ranged Pumps, FMLFileResourcePack:Reborn Core, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:Resource Loader, FMLFileResourcePack:Resynth, FMLFileResourcePack:RFTools, FMLFileResourcePack:RFTools Control, FMLFileResourcePack:Roguelike Dungeons, FMLFileResourcePack:SG Craft, FMLFileResourcePack:Signals, FMLFileResourcePack:SpaceCraftX, FMLFileResourcePack:Spatial Server Mod, FMLFileResourcePack:Storage Drawers, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Tech Reborn, FMLFileResourcePack:Tesla Core Lib, FMLFileResourcePack:Tesla Core Lib Registries, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Thaumic Energistics, FMLFileResourcePack:Thermal Cultivation, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:Thermal Innovation, FMLFileResourcePack:ThutCore Compat, FMLFileResourcePack:Thut Core, FMLFileResourcePack:Thut's Elevators, FMLFileResourcePack:Tinkers Tool Leveling, FMLFileResourcePack:Toast Control, FMLFileResourcePack:Tomb Many Graves, FMLFileResourcePack:TorchMaster, FMLFileResourcePack:Track API, FMLFileResourcePack:Traverse, FMLFileResourcePack:Tumbleweed, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:UniDict, FMLFileResourcePack:Unified Items, FMLFileResourcePack:Universal Modifiers, FMLFileResourcePack:Valkyrie Lib, FMLFileResourcePack:Waila Harvestability, FMLFileResourcePack:WanionLib, FMLFileResourcePack:What Are We Looking At, FMLFileResourcePack:Localized Weather & Storms, FMLFileResourcePack:Wireless Crafting Terminal 2, FMLFileResourcePack:Woot, FMLFileResourcePack:YABBA, FMLFileResourcePack:Zero CORE, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:ReAuth, FMLFileResourcePack:Tech Reborn Mod Compatibility, quark-texture-proxy, Quark-r1.5-146.jar, resources, CustomResources, CustomOverridingResources
+[22:11:50] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  HCASM (HammerCore-1.12.2-2.0.4.4.jar)
+  LoadingPlugin (Quark-r1.5-146.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  TransformerLoader (OpenComputers-MC1.12.2-1.7.4.153.jar)
+  LogisticsPipesCoreLoader (logisticspipes-0.10.1.112.jar)
+  AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.5.0-139-universal.jar)
+  ForgelinPlugin (Forgelin-1.8.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-0.3.3.22.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-89.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.57-core.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  MovingWorldCore (movingworld-1.12-6.342-full.jar)
+  EECore (ExpandedEquivalence-1.12.2-11b.jar)
+Contact their authors BEFORE contacting forge
+
+// Ouch. That hurt :(
+
+Time: 4/20/19 10:11 PM
+Description: Initializing game
+
+java.lang.NoClassDefFoundError: micdoodle8/mods/galacticraft/api/recipe/ISchematicPage
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:539)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+Caused by: java.lang.ClassNotFoundException: micdoodle8.mods.galacticraft.api.recipe.ISchematicPage
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 46 more
+Caused by: java.lang.NullPointerException
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:539)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows Server 2016 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 584451184 bytes (557 MB) / 3501719552 bytes (3339 MB) up to 7635730432 bytes (7282 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx8192m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2836 250 mods loaded, 250 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                           | Version                  | Source                                                      | Signature                                |
+	|:----- |:-------------------------------------------- |:------------------------ |:----------------------------------------------------------- |:---------------------------------------- |
+	| LC    | minecraft                                    | 1.12.2                   | minecraft.jar                                               | None                                     |
+	| LC    | mcp                                          | 9.42                     | minecraft.jar                                               | None                                     |
+	| LC    | FML                                          | 8.0.99.99                | forge-1.12.2-14.23.5.2836-universal.jar                     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LC    | forge                                        | 14.23.5.2836             | forge-1.12.2-14.23.5.2836-universal.jar                     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LC    | advancedrocketrycore                         | 1                        | minecraft.jar                                               | None                                     |
+	| LC    | otgcore                                      | 1.12.2 - v7              | minecraft.jar                                               | None                                     |
+	| LC    | com.elytradev.movingworld.common.asm.coremod |                          | minecraft.jar                                               | None                                     |
+	| LC    | openmodscore                                 | 0.12.2                   | minecraft.jar                                               | None                                     |
+	| LC    | opencomputers|core                           | 1.7.4.153                | minecraft.jar                                               | None                                     |
+	| LC    | actuallyadditions                            | 1.12.2-r146              | ActuallyAdditions-1.12.2-r146.jar                           | None                                     |
+	| LC    | buildcraftlib                                | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | buildcraftcore                               | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | buildcraftfactory                            | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | buildcrafttransport                          | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | buildcraftsilicon                            | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | additionalpipes                              | 6.0.0.8                  | additionalpipes-6.0.0.8.jar                                 | None                                     |
+	| LC    | ic2                                          | 2.8.109-ex112            | industrialcraft-2-2.8.109-ex112.jar                         | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LC    | advanced_machines                            | 61.0.1                   | Advanced Machines-61.0.1.jar                                | None                                     |
+	| LC    | advanced_solar_panels                        | 4.3.0                    | Advanced Solar Panels-4.3.0.jar                             | None                                     |
+	| LC    | redstoneflux                                 | 2.1.0                    | RedstoneFlux-1.12-2.1.0.6-universal.jar                     | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LC    | cofhcore                                     | 4.6.2                    | CoFHCore-1.12.2-4.6.2.25-universal.jar                      | None                                     |
+	| LC    | libvulpes                                    | 0.4.0.-54                | LibVulpes-1.12.2-0.4.0-54-universal.jar                     | None                                     |
+	| LC    | advancedrocketry                             | 1.5.0.-139               | AdvancedRocketry-1.12.2-1.5.0-139-universal.jar             | None                                     |
+	| LC    | ctm                                          | MC1.12.2-0.3.3.22        | CTM-MC1.12.2-0.3.3.22.jar                                   | None                                     |
+	| LC    | appliedenergistics2                          | rv6-stable-6             | appliedenergistics2-rv6-stable-6.jar                        | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LC    | bdlib                                        | 1.14.3.12                | bdlib-1.14.3.12-mc1.12.2.jar                                | None                                     |
+	| LC    | ae2stuff                                     | 0.7.0.4                  | ae2stuff-0.7.0.4-mc1.12.2.jar                               | None                                     |
+	| LC    | baubles                                      | 1.5.2                    | Baubles-1.12-1.5.2.jar                                      | None                                     |
+	| LC    | endercore                                    | 1.12.2-0.5.57            | EnderCore-1.12.2-0.5.57.jar                                 | None                                     |
+	| LC    | fp                                           | 26.4.57                  | Futurepack-1.12.2-26.4.57.jar                               | a8cfb0576c44b2711002b9e45850732f0b8c7cb6 |
+	| LC    | crafttweaker                                 | 4.1.17                   | CraftTweaker2-1.12-4.1.17.jar                               | None                                     |
+	| LC    | endertweaker                                 | 1.1.6                    | EnderTweaker-1.12.2-1.1.6.jar                               | None                                     |
+	| LC    | mtlib                                        | 3.0.6                    | MTLib-3.0.6.jar                                             | None                                     |
+	| LC    | modtweaker                                   | 4.0.17                   | modtweaker-4.0.17.jar                                       | None                                     |
+	| LC    | jei                                          | 4.15.0.268               | jei_1.12.2-4.15.0.268.jar                                   | None                                     |
+	| LC    | thaumcraft                                   | 6.1.BETA26               | Thaumcraft-1.12.2-6.1.BETA26.jar                            | None                                     |
+	| LC    | cofhworld                                    | 1.3.0                    | CoFHWorld-1.12.2-1.3.0.6-universal.jar                      | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LC    | thermalfoundation                            | 2.6.2                    | ThermalFoundation-1.12.2-2.6.2.26-universal.jar             | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LC    | enderio                                      | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | mantle                                       | 1.12-1.3.3.49            | Mantle-1.12-1.3.3.49.jar                                    | None                                     |
+	| LC    | projecte                                     | 1.12.2-PE1.4.0           | ProjectE-1.12.2-PE1.4.0.jar                                 | None                                     |
+	| LC    | chisel                                       | MC1.12.2-0.2.1.35        | Chisel-MC1.12.2-0.2.1.35.jar                                | None                                     |
+	| LC    | enderiointegrationtic                        | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | twilightforest                               | 3.8.689                  | twilightforest-1.12.2-3.8.689-universal.jar                 | None                                     |
+	| LC    | tconstruct                                   | 1.12.2-2.12.0.135        | TConstruct-1.12.2-2.12.0.135.jar                            | None                                     |
+	| LC    | p455w0rdslib                                 | 2.1.44                   | p455w0rdslib-1.12.2-2.1.44.jar                              | None                                     |
+	| LC    | ae2wtlib                                     | 1.0.6                    | AE2WTLib-1.12.2-1.0.6.jar                                   | None                                     |
+	| LC    | infinitylib                                  | 1.12.2-1.12.0            | infinitylib-1.12.0.jar                                      | None                                     |
+	| LC    | agricraft                                    | 2.12.0-1.12.0-a6         | AgriCraft-2.12.0-1.12.0-a6.jar                              | None                                     |
+	| LC    | appliedintegrations                          | 9.0.10.3                 | AppliedIntegrations-1.12.2-a4ae7fe.jar                      | None                                     |
+	| LC    | aroma1997core                                | 2.0.0.2                  | Aroma1997Core-1.12.2-2.0.0.2.jar                            | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+	| LC    | aroma1997sdimension                          | 2.0.0.2                  | Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar             | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+	| LC    | quark                                        | r1.5-146                 | Quark-r1.5-146.jar                                          | None                                     |
+	| LC    | autoreglib                                   | 1.3-26                   | AutoRegLib-1.3-26.jar                                       | None                                     |
+	| LC    | auxiliumequivalence                          | 1.12.2-1.3.2             | auxiliumequivalence-1.12.2-1.3.2.jar                        | None                                     |
+	| LC    | base                                         | 3.12.0                   | base-1.12.2-3.12.0.jar                                      | None                                     |
+	| LC    | forgelin                                     | 1.8.2                    | Forgelin-1.8.2.jar                                          | None                                     |
+	| LC    | bcextrapipes                                 | 1                        | bc-extra-pipes-1.12.2-1.jar                                 | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LC    | bcoreprocessing                              | 1                        | bc-ore-processing-7.99.15-1.jar                             | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LC    | buildcraftenergy                             | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | natura                                       | 1.12.2-4.3.2.66          | natura-1.12.2-4.3.2.66.jar                                  | None                                     |
+	| LC    | reborncore                                   | 3.13.12.447              | RebornCore-1.12.2-3.13.12.447-universal.jar                 | 8727a3141c8ec7f173b87aa78b9b9807867c4e6b |
+	| LC    | techreborn                                   | 2.22.1.979               | TechReborn-1.12.2-2.22.1.979-universal.jar                  | 8727a3141c8ec7f173b87aa78b9b9807867c4e6b |
+	| LC    | forestry                                     | 5.8.2.374                | forestry_1.12.2-5.8.2.374.jar                               | None                                     |
+	| LC    | beebetteratbees                              | 2.0.3                    | beebetteratbees-1.12.2-2.0.3.jar                            | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LC    | betteragriculture                            | 1.2.3                    | betteragriculture-1.12.2-1.2.3.jar                          | None                                     |
+	| LC    | betterbuilderswands                          | 0.11.1                   | BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar             | None                                     |
+	| LC    | bibliocraft                                  | 2.4.5                    | BiblioCraft[v2.4.5][MC1.12.2].jar                           | None                                     |
+	| LC    | binniecore                                   | 2.5.1.188                | binnie-mods-1.12.2-2.5.1.188.jar                            | None                                     |
+	| LC    | binniedesign                                 | 2.5.1.188                | binnie-mods-1.12.2-2.5.1.188.jar                            | None                                     |
+	| LC    | genetics                                     | 2.5.1.188                | binnie-mods-1.12.2-2.5.1.188.jar                            | None                                     |
+	| LC    | botany                                       | 2.5.1.188                | binnie-mods-1.12.2-2.5.1.188.jar                            | None                                     |
+	| LC    | extrabees                                    | 2.5.1.188                | binnie-mods-1.12.2-2.5.1.188.jar                            | None                                     |
+	| LC    | extratrees                                   | 2.5.1.188                | binnie-mods-1.12.2-2.5.1.188.jar                            | None                                     |
+	| LC    | biomesoplenty                                | 7.0.1.2419               | BiomesOPlenty-1.12.2-7.0.1.2419-universal.jar               | None                                     |
+	| LC    | byg                                          | 1.6.1                    | BiomesYouGo_1.6.1.jar                                       | None                                     |
+	| LC    | bookshelf                                    | 2.3.577                  | Bookshelf-1.12.2-2.3.577.jar                                | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LC    | botania                                      | r1.10-361                | Botania r1.10-361.jar                                       | None                                     |
+	| LC    | codechickenlib                               | 3.2.2.353                | CodeChickenLib-1.12.2-3.2.2.353-universal.jar               | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LC    | brandonscore                                 | 2.4.10                   | BrandonsCore-1.12.2-2.4.10.198-universal.jar                | None                                     |
+	| LC    | buildcraftbuilders                           | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | buildcraftcompat                             | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | buildcraftrobotics                           | 7.99.23                  | buildcraft-all-7.99.23.jar                                  | None                                     |
+	| LC    | careerbees                                   | 1.0                      | careerbees-0.4.0.jar                                        | None                                     |
+	| LC    | catwalks                                     | 1.12.2-4.0.44            | catwalks-1.12.2-4.0.44.jar                                  | None                                     |
+	| LC    | chameleon                                    | 1.12-4.1.3               | Chameleon-1.12-4.1.3.jar                                    | None                                     |
+	| LC    | chesttransporter                             | 2.8.8                    | ChestTransporter-1.12.2-2.8.8.jar                           | None                                     |
+	| LC    | chickens                                     | 6.0.4                    | chickens-6.0.4.jar                                          | None                                     |
+	| LC    | chiselsandbits                               | 14.31                    | chiselsandbits-14.31.jar                                    | None                                     |
+	| LC    | cyclopscore                                  | 1.1.1                    | CyclopsCore-1.12.2-1.1.1.jar                                | bd0353b3e8a2810d60dd584e256e364bc3bedd44 |
+	| LC    | commoncapabilities                           | 2.2.0                    | CommonCapabilities-1.12.2-2.2.0.jar                         | bd0353b3e8a2810d60dd584e256e364bc3bedd44 |
+	| LC    | compacter                                    | 1.3.0.3                  | compacter-1.3.0.3-mc1.12.2.jar                              | None                                     |
+	| LC    | compactsolars                                | 1.12.2-5.0.18.341        | CompactSolars-1.12.2-5.0.18.341-universal.jar               | None                                     |
+	| LC    | contenttweaker                               | 1.12.2-4.9.1             | ContentTweaker-1.12.2-4.9.1.jar                             | None                                     |
+	| LC    | controlling                                  | 3.0.6                    | Controlling-3.0.6.jar                                       | None                                     |
+	| LC    | extendedrenderer                             | v1.0                     | coroutil-1.12.1-1.2.31.jar                                  | None                                     |
+	| LC    | coroutil                                     | 1.12.1-1.2.31            | coroutil-1.12.1-1.2.31.jar                                  | None                                     |
+	| LC    | configmod                                    | v1.0                     | coroutil-1.12.1-1.2.31.jar                                  | None                                     |
+	| LC    | ctgui                                        | 1.0.0                    | CraftTweaker2-1.12-4.1.17.jar                               | None                                     |
+	| LC    | crafttweakerjei                              | 2.0.3                    | CraftTweaker2-1.12-4.1.17.jar                               | None                                     |
+	| LC    | cucumber                                     | 1.1.3                    | Cucumber-1.12.2-1.1.3.jar                                   | None                                     |
+	| LC    | custommainmenu                               | 2.0.9                    | CustomMainMenu-MC1.12.2-2.0.9.jar                           | None                                     |
+	| LC    | movingworld                                  | 1.12-6.342               | movingworld-1.12-6.342-full.jar                             | None                                     |
+	| LC    | davincisvessels                              | @DVESSELSVER@            | davincisvessels-1.12-6.340-full.jar                         | None                                     |
+	| LC    | dldungeonsjbg                                | 1.12.3                   | DoomlikeDungeons-1.12.3-MC1.12.2.jar                        | None                                     |
+	| LC    | draconicevolution                            | 2.3.21                   | Draconic-Evolution-1.12.2-2.3.21.342-universal.jar          | None                                     |
+	| LC    | mocreatures                                  | 12.0.5                   | DrZharks+MoCreatures+Mod-12.0.5.jar                         | None                                     |
+	| LC    | dynamictrees                                 | 1.12.2-0.9.4             | DynamicTrees-1.12.2-0.9.4.jar                               | None                                     |
+	| LC    | dynamictreestc                               | 1.12.2-1.4.1e            | DynamicTreesTC-1.12.2-1.4.1e.jar                            | None                                     |
+	| LC    | enderiobase                                  | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | enderioconduits                              | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | enderioconduitsappliedenergistics            | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | opencomputers                                | 1.7.4.153                | OpenComputers-MC1.12.2-1.7.4.153.jar                        | None                                     |
+	| LC    | enderioconduitsopencomputers                 | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | enderioconduitsrefinedstorage                | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | enderiointegrationforestry                   | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | enderiointegrationticlate                    | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | ftblib                                       | 5.4.1.96                 | FTBLib-5.4.1.96.jar                                         | None                                     |
+	| LC    | enderiomachines                              | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | enderiopowertools                            | 5.0.43                   | EnderIO-1.12.2-5.0.43.jar                                   | None                                     |
+	| LC    | enderstorage                                 | 2.4.5.135                | EnderStorage-1.12.2-2.4.5.135-universal.jar                 | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LC    | valkyrielib                                  | 1.12.2-2.0.20.1          | valkyrielib-1.12.2-2.0.20.1.jar                             | None                                     |
+	| LC    | environmentaltech                            | 1.12.2-2.0.20.1          | environmentaltech-1.12.2-2.0.20.1.jar                       | None                                     |
+	| LC    | equivalentenergistics                        | 0.8.3                    | EquivalentEnergistics-1.12.2-PE_1.3.1B-AE2_RV6-0.8.3.jar    | None                                     |
+	| LC    | exoticbirds                                  | 1.0                      | Exotic+Birds+1.12.2-2.2.1.jar                               | None                                     |
+	| LC    | hammercore                                   | 2.0.4.4                  | HammerCore-1.12.2-2.0.4.4.jar                               | 4d7b29cd19124e986da685107d16ce4b49bc0a97 |
+	| LC    | expequiv                                     | 11b                      | ExpandedEquivalence-1.12.2-11b.jar                          | 4d7b29cd19124e986da685107d16ce4b49bc0a97 |
+	| LC    | waila                                        | 1.8.26                   | Hwyla-1.8.26-B41_1.12.2.jar                                 | None                                     |
+	| LC    | extracells                                   | 2.6.2                    | ExtraCells-1.12.2-2.6.2a.jar                                | None                                     |
+	| LC    | extrautils2                                  | 1.0                      | extrautils2-1.12-1.9.9.jar                                  | None                                     |
+	| LC    | zerocore                                     | 1.12.2-0.1.2.8           | zerocore-1.12.2-0.1.2.8.jar                                 | None                                     |
+	| LC    | bigreactors                                  | 1.12.2-0.4.5.65          | ExtremeReactors-1.12.2-0.4.5.65.jar                         | None                                     |
+	| LC    | familiarfauna                                | 1.0.11                   | FamiliarFauna-1.12.2-1.0.11.jar                             | None                                     |
+	| LC    | floodlights                                  | 1.3.2-14                 | FloodLights-1.12.2-1.3.2-14.jar                             | None                                     |
+	| LC    | forgemultipartcbe                            | 2.6.1.81                 | ForgeMultipart-1.12.2-2.6.1.81-universal.jar                | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LC    | microblockcbe                                | 2.6.1.81                 | ForgeMultipart-1.12.2-2.6.1.81-universal.jar                | None                                     |
+	| LC    | minecraftmultipartcbe                        | 2.6.1.81                 | ForgeMultipart-1.12.2-2.6.1.81-universal.jar                | None                                     |
+	| LC    | fortunate                                    | 2.4 - MC 1.12.2          | fortunate-1.12.2-2.9.jar                                    | None                                     |
+	| LC    | ftbutilities                                 | 5.4.0.94                 | FTBUtilities-5.4.0.94.jar                                   | None                                     |
+	| LC    | ftbbackups                                   | 0.0.0.ftbbackups         | FTBUtilitiesBackups-1.0.0.3.jar                             | None                                     |
+	| LC    | funkylocomotion                              | 1.0                      | funky-locomotion-1.12.2-1.1.2.jar                           | None                                     |
+	| LC    | fpfa                                         | Version.version          | Futurepack Forestry Addon--1.12.2-2.0.1.jar                 | None                                     |
+	| LC    | fp.api                                       | 1.1.0                    | Futurepack-1.12.2-26.4.57.jar                               | None                                     |
+	| LC    | gamestages                                   | 2.0.112                  | GameStages-1.12.2-2.0.112.jar                               | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LC    | gendustry                                    | 1.6.5.8                  | gendustry-1.6.5.8-mc1.12.2.jar                              | None                                     |
+	| LC    | gendustryjei                                 | 1.0.2                    | gendustryjei-1.0.2.jar                                      | None                                     |
+	| LC    | advgenerators                                | 0.9.20.12                | generators-0.9.20.12-mc1.12.2.jar                           | None                                     |
+	| LC    | guideapi                                     | 1.12-2.1.8-63            | Guide-API-1.12-2.1.8-63.jar                                 | None                                     |
+	| LC    | ichunutil                                    | 7.2.1                    | iChunUtil-1.12.2-7.2.1.jar                                  | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LC    | hats                                         | 7.0.0                    | Hats-1.12.2-7.0.2.jar                                       | None                                     |
+	| LC    | icbmclassic                                  | 1.12.2-3.3.0.63          | ICBM-classic-1.12.2-3.3.0b63.jar                            | None                                     |
+	| LC    | mts                                          | 13.1.0                   | Immersive Vehicles-1.12.2-13.1.0.jar                        | None                                     |
+	| LC    | railcraft                                    | 12.0.0                   | railcraft-12.0.0.jar                                        | a0c255ac501b2749537d5824bb0f0588bf0320fa |
+	| LC    | immersiveengineering                         | 0.12-89                  | ImmersiveEngineering-0.12-89.jar                            | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+	| LC    | immersivecables                              | 1.3.2                    | ImmersiveCables-1.12.2-1.3.2.jar                            | None                                     |
+	| LC    | immersivepetroleum                           | 1.1.9                    | immersivepetroleum-1.12.2-1.1.9.jar                         | None                                     |
+	| LC    | trackapi                                     | 1.1                      | TrackAPI-1.1_1.12.jar                                       | None                                     |
+	| LC    | immersiverailroading                         | 1.5.0                    | ImmersiveRailroading-1.5.0_1.12-402.jar                     | None                                     |
+	| LC    | mekanism                                     | 1.12.2-9.7.1.371         | Mekanism-1.12.2-9.7.1.371.jar                               | None                                     |
+	| LC    | teslacorelib                                 | 1.0.15                   | tesla-core-lib-1.12.2-1.0.15.jar                            | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LC    | industrialforegoing                          | 1.12.2-1.12.2            | industrialforegoing-1.12.2-1.12.11-235.jar                  | None                                     |
+	| LC    | integrateddynamics                           | 1.0.11                   | IntegratedDynamics-1.12.2-1.0.11.jar                        | bd0353b3e8a2810d60dd584e256e364bc3bedd44 |
+	| LC    | integrateddynamicscompat                     | 1.0.0                    | IntegratedDynamics-1.12.2-1.0.11.jar                        | None                                     |
+	| LC    | integratedtunnels                            | 1.6.8                    | IntegratedTunnels-1.12.2-1.6.8.jar                          | None                                     |
+	| LC    | integratedtunnelscompat                      | 1.0.0                    | IntegratedTunnels-1.12.2-1.6.8.jar                          | None                                     |
+	| LC    | mysticalagriculture                          | 1.7.3                    | MysticalAgriculture-1.12.2-1.7.3.jar                        | None                                     |
+	| LC    | harvestcraft                                 | 1.12.2zb                 | Pam's HarvestCraft 1.12.2zc The 7mm Kidney Stone Update.jar | None                                     |
+	| LC    | mcjtylib_ng                                  | 3.1.1                    | mcjtylib-1.12-3.1.1.jar                                     | None                                     |
+	| LC    | rftools                                      | 7.61                     | rftools-1.12-7.61.jar                                       | None                                     |
+	| LC    | integrationforegoing                         | 1.12.2-1.9               | IntegrationForegoing-1.12.2-1.9.jar                         | 4ffa87db52cf086d00ecc4853a929367b1c39b5c |
+	| LC    | inventorytweaks                              | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                                    | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LC    | ironbackpacks                                | 1.12.2-3.0.8-12          | IronBackpacks-1.12.2-3.0.8-12.jar                           | None                                     |
+	| LC    | ironchest                                    | 1.12.2-7.0.59.842        | ironchest-1.12.2-7.0.59.842.jar                             | None                                     |
+	| LC    | irontanks                                    | 2.1.0-beta.5             | irontanks-2.1.0-beta.5.jar                                  | None                                     |
+	| LC    | jehc                                         | 1.6.3                    | jehc-1.12.2-1.6.3.jar                                       | None                                     |
+	| LC    | jeibees                                      | 0.9.0.5                  | jeibees-0.9.0.5-mc1.12.2.jar                                | None                                     |
+	| LC    | journeymap                                   | 1.12.2-5.5.4             | journeymap-1.12.2-5.5.4.jar                                 | None                                     |
+	| LC    | jee                                          | 1.0.6                    | JustEnoughEnergistics-1.12.2-1.0.6.jar                      | None                                     |
+	| LC    | jeresources                                  | 0.8.5.27                 | JustEnoughResources-1.12.2-0.8.5.27.jar                     | None                                     |
+	| LC    | logisticalautomation                         | 0.1.0                    | logisticalautomation-0.1.0.jar                              | None                                     |
+	| LC    | logisticspipes                               | 0.10.1.112               | logisticspipes-0.10.1.112.jar                               | 4ab9c640e37baa2d4eca3354863a84d2c06bee42 |
+	| LC    | magicbees                                    | 1.0                      | MagicBees-1.12.2-3.1.10.jar                                 | None                                     |
+	| LC    | malisiscore                                  | 1.12.2-6.5.1-SNAPSHOT    | malisiscore-1.12.2-6.5.1.jar                                | None                                     |
+	| LC    | malisisdoors                                 | 1.12.2-7.3.0             | malisisdoors-1.12.2-7.3.0.jar                               | None                                     |
+	| LC    | mekanismgenerators                           | 1.12.2-9.7.1.371         | MekanismGenerators-1.12.2-9.7.1.371.jar                     | None                                     |
+	| LC    | modularforcefieldsystem                      | 3.0.1                    | MFFS-1.12.2-4.0.1.0_1.12_cc3a5aa.jar                        | None                                     |
+	| LC    | morebees                                     | 1.12.2-2.0.1             | morebees-1.12.2-2.0.1.jar                                   | None                                     |
+	| LC    | morph                                        | 7.1.3                    | Morph-1.12.2-7.1.3.jar                                      | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LC    | morpheus                                     | 1.12.2-3.5.106           | Morpheus-1.12.2-3.5.106.jar                                 | None                                     |
+	| LC    | mousetweaks                                  | 2.10                     | MouseTweaks-2.10-mc1.12.2.jar                               | None                                     |
+	| LC    | mrtjpcore                                    | 2.1.3.35                 | MrTJPCore-1.12.2-2.1.3.35-universal.jar                     | None                                     |
+	| LC    | mtsofficialpack                              | 9.0.0                    | MTS_Official_Pack_V09.jar                                   | None                                     |
+	| LC    | multifarmcrops                               | 1.2.0                    | MultifarmCrops-1.2.0.jar                                    | None                                     |
+	| LC    | mystcraft                                    | 0.13.7.03                | mystcraft-1.12.2-0.13.7.03.jar                              | None                                     |
+	| LC    | netherportalfix                              | 5.3.17                   | NetherPortalFix_1.12.1-5.3.17.jar                           | None                                     |
+	| LC    | nei                                          | 2.4.2                    | NotEnoughItems-1.12.2-2.4.2.240-universal.jar               | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LC    | omlib                                        | 3.0.1-162                | omlib-1.12.2-3.0.1-162.jar                                  | None                                     |
+	| LC    | openmods                                     | 0.12.2                   | OpenModsLib-1.12.2-0.12.2.jar                               | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LC    | openblocks                                   | 1.8.1                    | OpenBlocks-1.12.2-1.8.1.jar                                 | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LC    | openmodularturrets                           | 3.0.1-264                | openmodularturrets-1.12.2-3.0.1-264.jar                     | None                                     |
+	| LC    | openterraingenerator                         | v6                       | OpenTerrainGenerator-1.12.2 - v6.jar                        | e9f7847a78c5342af5b0a9e04e5abc0b554d69e0 |
+	| LC    | oreexcavation                                | 1.4.140                  | OreExcavation-1.4.140.jar                                   | None                                     |
+	| LC    | otgskylands                                  | 1.0                      | OTG-Skylands-1.12.2-v5.jar                                  | None                                     |
+	| LC    | packagedauto                                 | 1.12.2-1.0.1.4           | PackagedAuto-1.12.2-1.0.1.5.jar                             | None                                     |
+	| LC    | placebo                                      | 1.6.0                    | Placebo-1.12.2-1.6.0.jar                                    | None                                     |
+	| LC    | portalgun                                    | 7.1.0                    | PortalGun-1.12.2-7.1.0.jar                                  | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LC    | projectred-core                              | 4.9.1.92                 | ProjectRed-1.12.2-4.9.1.92-Base.jar                         | None                                     |
+	| LC    | projectred-integration                       | 4.9.1.92                 | ProjectRed-1.12.2-4.9.1.92-integration.jar                  | None                                     |
+	| LC    | projectred-transmission                      | 4.9.1.92                 | ProjectRed-1.12.2-4.9.1.92-integration.jar                  | None                                     |
+	| LC    | projectred-illumination                      | 4.9.1.92                 | ProjectRed-1.12.2-4.9.1.92-lighting.jar                     | None                                     |
+	| LC    | projectred-expansion                         | 4.9.1.92                 | ProjectRed-1.12.2-4.9.1.92-mechanical.jar                   | None                                     |
+	| LC    | projectred-relocation                        | 4.9.1.92                 | ProjectRed-1.12.2-4.9.1.92-mechanical.jar                   | None                                     |
+	| LC    | projectred-transportation                    | 4.9.1.92                 | ProjectRed-1.12.2-4.9.1.92-mechanical.jar                   | None                                     |
+	| LC    | projectred-exploration                       | 4.9.1.92                 | ProjectRed-1.12.2-4.9.1.92-world.jar                        | None                                     |
+	| LC    | psi                                          | r1.1-74                  | Psi-r1.1-74.jar                                             | None                                     |
+	| LC    | rangedpumps                                  | 0.5                      | rangedpumps-0.5.jar                                         | None                                     |
+	| LC    | resourceloader                               | 1.5.3                    | ResourceLoader-MC1.12.1-1.5.3.jar                           | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LC    | resynth                                      | 1.3.4                    | resynth-1.3.4.jar                                           | None                                     |
+	| LC    | rftoolscontrol                               | 1.9.3                    | rftoolsctrl-1.12-1.9.3.jar                                  | None                                     |
+	| LC    | roguelike                                    | 1.8.0                    | RoguelikeDungeons-1.12.2-1.8.0.jar                          | None                                     |
+	| LC    | sgcraft                                      | 1.13.2                   | SGCraft-1.3-mc1.12.2.jar                                    | None                                     |
+	| LC    | signals                                      | 1.4.1-30                 | Signals-1.12.2-1.4.1-30-universal.jar                       | None                                     |
+	| L     | spacecraftx                                  | 1.0.35                   | spacecraftx-1.12.2-1.0.35.jar                               | None                                     |
+	| L     | spatialservermod                             | 1.3                      | spatialservermod-1.3.jar                                    | None                                     |
+	| L     | storagedrawers                               | 1.12-5.3.5               | StorageDrawers-1.12.2-5.3.8.jar                             | None                                     |
+	| L     | thaumicenergistics                           | 2.2.1                    | thaumicenergistics-2.2.1.jar                                | None                                     |
+	| L     | thermalcultivation                           | 0.3.2                    | ThermalCultivation-1.12.2-0.3.2.11-universal.jar            | None                                     |
+	| L     | thermalinnovation                            | 0.3.2                    | ThermalInnovation-1.12.2-0.3.2.11-universal.jar             | None                                     |
+	| L     | thutcore                                     | 5.19.9                   | thutcore-1.12.2-5.19.9.jar                                  | None                                     |
+	| L     | thutcore_compat                              | 1.0                      | thutcore-1.12.2-5.19.9.jar                                  | None                                     |
+	| L     | thuttech                                     | 6.1.5                    | thuttech-1.12.2-6.1.5.jar                                   | None                                     |
+	| L     | tinkertoolleveling                           | 1.12.2-1.1.0.DEV.b23e769 | TinkerToolLeveling-1.12.2-1.1.0.jar                         | None                                     |
+	| L     | toastcontrol                                 | 1.8.0                    | Toast Control-1.12.2-1.8.0.jar                              | None                                     |
+	| L     | tombmanygraves                               | 1.12-4.2.0               | TombManyGraves-1.12-4.2.0.jar                               | None                                     |
+	| L     | torchmaster                                  | 1.7.1.74                 | torchmaster_1.12.2-1.7.1.74.jar                             | None                                     |
+	| L     | traverse                                     | 1.6.0                    | Traverse-1.12.2-1.6.0-69.jar                                | None                                     |
+	| L     | tumbleweed                                   | 1.11-0.4.5               | tumbleweed-1.11-0.4.5.jar                                   | None                                     |
+	| L     | unifieditems                                 | 1.7.4.212                | UnifiedItems-1.12.2-1.7.4-212.jar                           | None                                     |
+	| L     | universalmodifiers                           | 1.12.2-1.0.16.1          | valkyrielib-1.12.2-2.0.20.1.jar                             | None                                     |
+	| L     | wailaharvestability                          | 1.1.12                   | WailaHarvestability-mc1.12-1.1.12.jar                       | None                                     |
+	| L     | wanionlib                                    | 1.12.2-2.2               | WanionLib-1.12.2-2.2.jar                                    | None                                     |
+	| L     | wawla                                        | 2.5.269                  | Wawla-1.12.2-2.5.269.jar                                    | None                                     |
+	| L     | weather2                                     | 1.12.1-2.6.12            | weather2-1.12.1-2.6.12.jar                                  | None                                     |
+	| L     | wct                                          | 3.11.88                  | WirelessCraftingTerminal-1.12.2-3.11.88.jar                 | None                                     |
+	| L     | woot                                         | 1.12.2-1.4.10            | woot-1.12.2-1.4.10.jar                                      | None                                     |
+	| L     | yabba                                        | 1.1.2.48                 | YABBA-1.1.2.48.jar                                          | None                                     |
+	| L     | reauth                                       | 3.6.0                    | reauth-3.6.0.jar                                            | None                                     |
+	| L     | techreborn_compat                            | 1.0.0                    | TechReborn-ModCompatibility-1.12.2-1.1.0.38.jar             | None                                     |
+	| L     | teslacorelib_registries                      | 1.0.15                   | tesla-core-lib-1.12.2-1.0.15.jar                            | None                                     |
+	| L     | unidict                                      | 1.12.2-2.9.2             | UniDict-1.12.2-2.9.2.jar                                    | None                                     |
+
+	Loaded coremods (and transformers): 
+HCASM (HammerCore-1.12.2-2.0.4.4.jar)
+  com.zeitheron.hammercore.asm.HammerCoreTransformer
+LoadingPlugin (Quark-r1.5-146.jar)
+  vazkii.quark.base.asm.ClassTransformer
+OTGCorePlugin (OTG-Core.jar)
+  com.pg85.otg.forge.asm.OTGClassTransformer
+OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  openmods.core.OpenModsClassTransformer
+TransformerLoader (OpenComputers-MC1.12.2-1.7.4.153.jar)
+  li.cil.oc.common.asm.ClassTransformer
+LogisticsPipesCoreLoader (logisticspipes-0.10.1.112.jar)
+  logisticspipes.asm.LogisticsClassTransformer
+AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.5.0-139-universal.jar)
+  zmaster587.advancedRocketry.asm.ClassTransformer
+ForgelinPlugin (Forgelin-1.8.2.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-0.3.3.22.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-89.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+EnderCorePlugin (EnderCore-1.12.2-0.5.57-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  
+CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  
+MovingWorldCore (movingworld-1.12-6.342-full.jar)
+  
+EECore (ExpandedEquivalence-1.12.2-11b.jar)
+  com.zeitheron.expequiv.core.EETransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 417.35' Renderer: 'GeForce GTX 1060 6GB/PCIe/SSE2'
+	OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:FINISHED],[player_render_hook:FINISHED],[horse_null_fix:FINISHED]
+	AE2 Version: stable rv6-stable-6 for Forge 14.23.5.2768
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- chiselIntegration (Enabled/Not Forced)
+		- chiselsandbitsIntegration (Enabled/Not Forced)
+		- wailaIntegration (Enabled/Not Forced)
+
+	Pulsar/natura loaded Pulses: 
+		- NaturaCommons (Enabled/Forced)
+		- NaturaOverworld (Enabled/Not Forced)
+		- NaturaNether (Enabled/Not Forced)
+		- NaturaDecorative (Enabled/Not Forced)
+		- NaturaTools (Enabled/Not Forced)
+		- NaturaEntities (Enabled/Not Forced)
+		- NaturaOredict (Enabled/Forced)
+		- NaturaWorld (Enabled/Not Forced)
+
+	Hammer Core Information: FluidDictionary Info: Registered 2 fluids.
+OreDictionary Info: Registered 155 names; 193 stacks.
+Pastebin Connection: Okay.
+Dependent Mods:
+    -Expanded Equivalence (expequiv) @11b
+
+	Launched Version: MultiMC5
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1060 6GB/PCIe/SSE2 GL version 4.6.0 NVIDIA 417.35, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 16x AMD Ryzen 7 2700X Eight-Core Processor 
+[22:11:50] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:func_179870_a:553]: #@!@# Game crashed! Crash report saved to: #@!@# C:\multimc\MultiMC\instances\turbo-modpack\.minecraft\crash-reports\crash-2019-04-20_22.11.50-client.txt
