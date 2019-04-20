@@ -1,0 +1,14 @@
+[18:36:23] [Client thread/INFO]: Setting user: xXMagmaHDXx
+[18:36:24] [Client thread/INFO]: LWJGL Version: 3.1.6 build 14
+[18:36:25] [Client thread/INFO]: Reloading ResourceManager: Default
+[18:36:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:36:26] [Thread-2/INFO]: Initializing No Sound
+[18:36:26] [Thread-2/INFO]: (Silent Mode)
+[18:36:26] [Thread-2/INFO]: OpenAL initialized.
+[18:36:26] [Sound Library Loader/INFO]: Preloading sound minecraft:sounds/ambient/underwater/underwater_ambience.ogg
+[18:36:26] [Sound Library Loader/INFO]: Sound engine started
+[18:36:28] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[18:36:29] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[18:36:39] [Client thread/INFO]: Stopping!
+[18:36:40] [Client thread/INFO]: SoundSystem shutting down...
+[18:36:40] [Client thread/INFO]: SoundSystem Author: Paul Lamb, www.paulscode.com
