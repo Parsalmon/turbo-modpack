@@ -38,7 +38,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.2,
+      "amountPerChunk": 2.0,
       "enable": true
     },
     "medium_lily": {
@@ -77,6 +77,21 @@
         }
       }
     },
+    "stone_formations": {
+      "minHeight": 1,
+      "with": {
+        "block": "biomesoplenty:stone_formations",
+        "properties": {
+          "position": "stalagmite_small",
+          "variant": "stone_formation"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 30.0,
+      "maxHeight": 5,
+      "enable": true,
+      "randomDirection": true
+    },
     "algae": {
       "with": {
         "block": "biomesoplenty:coral",
@@ -90,7 +105,7 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 9.0,
       "enable": true,
       "generators": {}
     },
@@ -152,7 +167,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.1,
+      "amountPerChunk": 2.0,
       "enable": true,
       "withTop": {
         "block": "biomesoplenty:double_plant",
@@ -201,11 +216,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.1,
+      "amountPerChunk": 0.2,
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 0.25,
+      "amountPerChunk": 0.4,
       "enable": true,
       "generators": {}
     },
@@ -273,7 +288,7 @@
         }
       },
       "maxRadius": 7,
-      "amountPerChunk": 0.5,
+      "amountPerChunk": 1.0,
       "enable": true
     },
     "sugar_cane": {
@@ -285,7 +300,7 @@
         }
       },
       "generationAttempts": 24,
-      "amountPerChunk": 0.6,
+      "amountPerChunk": 1.0,
       "maxHeight": 3,
       "enable": true,
       "randomDirection": false
@@ -307,7 +322,7 @@
         }
       },
       "maxRadius": 8,
-      "amountPerChunk": 0.5,
+      "amountPerChunk": 1.0,
       "enable": true
     },
     "river_cane": {
@@ -319,7 +334,7 @@
         }
       },
       "generationAttempts": 24,
-      "amountPerChunk": 0.3,
+      "amountPerChunk": 1.0,
       "maxHeight": 3,
       "enable": true,
       "randomDirection": false

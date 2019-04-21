@@ -135,7 +135,7 @@
         
         "panorama":
         {
-            "images" : "background.png",
+            "images" : "file:background.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,

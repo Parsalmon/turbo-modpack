@@ -53,21 +53,20 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "koru": {
+    "stone_formations": {
+      "minHeight": 1,
       "with": {
-        "block": "biomesoplenty:plant_0",
+        "block": "biomesoplenty:stone_formations",
         "properties": {
-          "variant": "koru"
+          "position": "stalagmite_small",
+          "variant": "stone_formation"
         }
       },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "grass": {
-      "amountPerChunk": 1.4,
+      "generationAttempts": 16,
+      "amountPerChunk": 30.0,
+      "maxHeight": 5,
       "enable": true,
-      "generators": {}
+      "randomDirection": true
     },
     "algae": {
       "with": {
@@ -104,17 +103,6 @@
       "maxHeight": 32,
       "enable": true
     },
-    "mud": {
-      "with": {
-        "block": "biomesoplenty:mud",
-        "properties": {
-          "variant": "mud"
-        }
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 8.0,
-      "enable": true
-    },
     "trees": {
       "amountPerChunk": 0.6,
       "enable": true,
@@ -129,6 +117,33 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.5,
+      "enable": true
+    },
+    "koru": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "koru"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 1.4,
+      "enable": true,
+      "generators": {}
+    },
+    "mud": {
+      "with": {
+        "block": "biomesoplenty:mud",
+        "properties": {
+          "variant": "mud"
+        }
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 8.0,
       "enable": true
     },
     "mud_patches": {
