@@ -12,7 +12,21 @@
         }
     },
     "buttons":
-    {    
+    {
+        "dev":
+        {
+            "text" : "DEV",
+            "posX" : -239,
+            "posY" : -62,
+            "width" : 30,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
         "multiplayer":
         {
             "text" : "menu.multiplayer",
@@ -121,7 +135,7 @@
         
         "panorama":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "images" : "background.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,
