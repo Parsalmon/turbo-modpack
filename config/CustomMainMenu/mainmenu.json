@@ -10,34 +10,8 @@
             "height" : 512,
             "alignment" : "top_center"
         },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
-        }
-    },
-    
     "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },
-        
+    {    
         "multiplayer":
         {
             "text" : "menu.multiplayer",
@@ -49,20 +23,6 @@
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
-            }
-        },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
             }
         },
             
