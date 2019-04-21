@@ -9,7 +9,8 @@
             "width" : 512,
             "height" : 512,
             "alignment" : "top_center"
-        },
+        }
+    },
     "buttons":
     {    
         "multiplayer":
@@ -81,7 +82,6 @@
             }
         }
     },
-    
     "labels":
     {
         "mojang":
@@ -108,7 +108,6 @@
             "alignment" : "bottom_left"
         }
     },
-    
     "other":
     {
         "splash-text":
@@ -130,3 +129,4 @@
         }
     }
 }
+
