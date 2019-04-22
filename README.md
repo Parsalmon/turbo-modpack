@@ -176,12 +176,10 @@ Hats (by iChun)
 Hwyla (by TehNut)
 Applied Integrations (by azazell_curseforge)
 Placebo (by Shadows_of_Fire)
+
+
 For Servers:
 
- 
-
 IMPORTANT
-
- 
 
 Set world-type to SKYLANDS
