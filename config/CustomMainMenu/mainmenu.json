@@ -22,21 +22,19 @@
     },
     "buttons":
     {
-        "dev":
+        "singleplayer":
         {
-            "text" : "DEV",
-            "posX" : 2,
-            "posY" : 2,
-            "width" : 30,
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 47,
+            "width" : 200,
             "height" : 20,
-            "alignment": "top_left",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
         },
-
         "multiplayer":
         {
             "text" : "menu.multiplayer",
@@ -50,7 +48,32 @@
                 "gui" : "multiplayer"
             }
         },
-            
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : 112,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "Mods"
+            }
+        },
+        "github":
+        {
+            "text" : "Mod Github",
+            "posX" : 2,
+            "posY" : 112,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/Mac898/turbo-modpack"
+            }
+        },
         "options":
         {
             "text" : "menu.options",
@@ -64,7 +87,6 @@
                 "gui" : "options"
             }
         },
-        
         "quit":
         {
             "text" : "menu.quit",
@@ -77,7 +99,6 @@
                 "type" : "quit"
             }
         },
-        
         "language":
         {
             "text" : "",
@@ -90,28 +111,13 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        }
+        }  
     },
     "labels":
     {
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -130,6 +136,15 @@
             "posY" : -40,
             "color" : -1,
             "alignment" : "bottom_left"
+        },
+        
+        "titlename":
+        {
+            "text" : "Turbo Skylands",
+            "posX" : -40,
+            "posY" : -65,
+            "color" : -1,
+            "alignment" : "center"
         }
     },
     "other":
