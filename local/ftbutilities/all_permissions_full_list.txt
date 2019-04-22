@@ -1,4 +1,4 @@
-22192 nodes in total
+22204 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -15542,6 +15542,16 @@ ftbutilities.claims.item.genetics.registry: ALL
 ftbutilities.claims.item.genetics.sequence: ALL
 ftbutilities.claims.item.genetics.serum: ALL
 ftbutilities.claims.item.genetics.serum_array: ALL
+ftbutilities.claims.item.gravisuite.advancedchainsaw: ALL
+ftbutilities.claims.item.gravisuite.advanceddrill: ALL
+ftbutilities.claims.item.gravisuite.advancedjetpack: ALL
+ftbutilities.claims.item.gravisuite.advancedlappack: ALL
+ftbutilities.claims.item.gravisuite.advancednanochestplate: ALL
+ftbutilities.claims.item.gravisuite.crafting: ALL
+ftbutilities.claims.item.gravisuite.gravichestplate: ALL
+ftbutilities.claims.item.gravisuite.gravitool: ALL
+ftbutilities.claims.item.gravisuite.ultimatelappack: ALL
+ftbutilities.claims.item.gravisuite.vajra: ALL
 ftbutilities.claims.item.guideapi.logisticalautomation-guide: ALL
 ftbutilities.claims.item.guideapi.minecraft-mffsguide: ALL
 ftbutilities.claims.item.guideapi.woot-guide: ALL
@@ -16964,6 +16974,7 @@ ftbutilities.claims.item.ic2.overclocked_heat_vent: ALL
 ftbutilities.claims.item.ic2.oxygen: ALL
 ftbutilities.claims.item.ic2.pahoehoe_lava: ALL
 ftbutilities.claims.item.ic2.painter: ALL
+ftbutilities.claims.item.ic2.pipe: ALL
 ftbutilities.claims.item.ic2.plate: ALL
 ftbutilities.claims.item.ic2.plating: ALL
 ftbutilities.claims.item.ic2.purified: ALL
@@ -17011,6 +17022,7 @@ ftbutilities.claims.item.ic2.weed_ex: ALL
 ftbutilities.claims.item.ic2.weeding_trowel: ALL
 ftbutilities.claims.item.ic2.wind_meter: ALL
 ftbutilities.claims.item.ic2.wrench: ALL
+ftbutilities.claims.item.ic2.wrench_new: ALL
 ftbutilities.claims.item.icbmclassic.antidote: ALL
 ftbutilities.claims.item.icbmclassic.battery: ALL
 ftbutilities.claims.item.icbmclassic.batterybox: ALL

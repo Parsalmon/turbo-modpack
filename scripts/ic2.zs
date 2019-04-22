@@ -1,4 +1,3 @@
-
 #ic2 & tech reborn interchangability
 recipes.addShapeless(<techreborn:uumatter> * 1, [<ic2:misc_resource:3>]);
 recipes.addShapeless(<ic2:misc_resource:3> * 1, [<techreborn:uumatter>]);
@@ -184,7 +183,7 @@ recipes.addShaped(tflintshovel * 1, [[null, tflintshovelhead, null], [stick, nul
 
 #flint sword
 recipes.addShaped(tflintswordhead * 1, [[null, flint, null], [null, flint, null], [null, null, null]]);
-recipes.addShaped(tflintsword * 1, [[null, tflintswordhead, null], [stick, null, null]], [null, null, null]);
+recipes.addShaped(tflintsword * 1, [[null, tflintswordhead, null], [stick, null, null], [null, null, null]]);
 
 #flint mattock (optional for some people)
 recipes.addShaped(tflintmattock * 1, [[tflintshovel, tflintaxe, null], [null, null, null], [null, null, null]]);
@@ -205,7 +204,7 @@ recipes.addShaped(grout * 4, [[gravel, sand, gravel], [sand, clayb, sand], [grav
 
 #START ProjectE changes
 var energycollectormk1 = <projecte:collector_mk1>;
-var furnace = <minecraft:furnace>;
+var mcfurnace = <minecraft:furnace>;
 var glass = <ore:blockGlass>;
 var philostone = <projecte:item.pe_philosophers_stone>;
 var megatorch = <torchmaster:mega_torch>;
@@ -229,7 +228,7 @@ var ironb = <ore:blockIron>;
 
 #energy collector mk1
 recipes.remove(energycollectormk1);
-recipes.addShaped(energycollectormk1 * 1, [[megatorch, glass, megatorch], [megatorch, philostone, megatorch], [megatorch, furnace, megatorch]]);
+recipes.addShaped(energycollectormk1 * 1, [[megatorch, glass, megatorch], [megatorch, philostone, megatorch], [megatorch, mcfurnace, megatorch]]);
 
 #anti matter relay mk1
 recipes.remove(energyrelaymk1);
@@ -241,7 +240,7 @@ recipes.addShaped(condensor * 1, [[obsidian, highcovalence, obsidian], [highcova
 
 #alchemical chest
 recipes.remove(alchemchest);
-recipes.addShaped(alchemchest * 1, [[lowcovalence, midcovalence, highcovalence], [stone, midcovalence, stone], [ironingot, chest, ironingot]]);
+recipes.addShaped(alchemchest * 1, [[lowcovalence, midcovalence, highcovalence], [stone, midcovalence, stone], [ironingot, woodchest, ironingot]]);
 
 #high covalence dust
 recipes.remove(highcovalence);
@@ -264,19 +263,20 @@ var logiprocessor = <appliedenergistics2:material:22>;
 var logicircuit = <appliedenergistics2:material:18>;
 var silicion = <ore:itemSilicion>;
 var silicionproccessor = <appliedenergistics2:material:20>;
-var quartzknife = <ore:itemQuartzKnife>.anyDamage();
+var quartzknifea = <appliedenergistics2:certus_quartz_cutting_knife>.anyDamage();
+var quartzknifeb = <appliedenergistics2:nether_quartz_cutting_knife>.anyDamage();
 var redstone = <minecraft:redstone>;
 var emerald = <minecraft:emerald>;
 var goldingot = <ore:ingotGold>;
 
 #remove proccessor recipes
-mods.appeng.Inscriber.removeRecipe(calcprocessor);
-mods.appeng.Inscriber.removeRecipe(calccircuit);
-mods.appeng.Inscriber.removeRecipe(engiprocessor);
-mods.appeng.Inscriber.removeRecipe(engicircuit);
-mods.appeng.Inscriber.removeRecipe(logiprocessor);
-mods.appeng.Inscriber.removeRecipe(logicircuit);
-mods.appeng.Inscriber.removeRecipe(silicionprocessor);
+mods.appliedenergistics2.Inscriber.removeRecipe(calcproccesor);
+mods.appliedenergistics2.Inscriber.removeRecipe(calccircuit);
+mods.appliedenergistics2.Inscriber.removeRecipe(engiprocessor);
+mods.appliedenergistics2.Inscriber.removeRecipe(engicircuit);
+mods.appliedenergistics2.Inscriber.removeRecipe(logiprocessor);
+mods.appliedenergistics2.Inscriber.removeRecipe(logicircuit);
+mods.appliedenergistics2.Inscriber.removeRecipe(silicionproccessor);
 
 #furnace recipes
 furnace.addRecipe(<appliedenergistics2:material:23>, <appliedenergistics2:material:16>, 0.0);
@@ -286,17 +286,20 @@ furnace.addRecipe(<appliedenergistics2:material:22>, <appliedenergistics2:materi
 #START IC2 Continued / Tech Reborn
 
 #calculation processors
-recipes.addShaped(calcircuit, [[null, quartzknife, null],[redstone, emerald, redstone], [null, <appliedenergistics2:material:5>, null]]);
+recipes.addShaped(calccircuit, [[null, quartzknifea, null],[redstone, emerald, redstone], [null, <appliedenergistics2:material:5>, null]]);
+recipes.addShaped(calccircuit, [[null, quartzknifeb, null],[redstone, emerald, redstone], [null, <appliedenergistics2:material:5>, null]]);
 
 #engineering processors
-recipes.addShaped(engicircuit, [[null, quartzknife, null],[redstone, diamond, redstone], [null, <appliedenergistics2:material:5>, null]]);
+recipes.addShaped(engicircuit, [[null, quartzknifea, null],[redstone, diamond, redstone], [null, <appliedenergistics2:material:5>, null]]);
+recipes.addShaped(engicircuit, [[null, quartzknifeb, null],[redstone, diamond, redstone], [null, <appliedenergistics2:material:5>, null]]);
 
 #logic processors
-recipes.addShaped(logicircuit, [[null, quartzknife, null],[redstone, goldingot, redstone], [null, <appliedenergistics2:material:5>, null]]);
+recipes.addShaped(logicircuit, [[null, quartzknifea, null],[redstone, goldingot, redstone], [null, <appliedenergistics2:material:5>, null]]);
+recipes.addShaped(logicircuit, [[null, quartzknifeb, null],[redstone, goldingot, redstone], [null, <appliedenergistics2:material:5>, null]]);
 
 #disable non-techreborn tools from ic2 & gravisuite
 var advdrill = <gravisuite:advanceddrill:*>;
-var diadrill = <ic2:diamond_Drill:*>;
+var diadrill = <ic2:diamond_drill:*>;
 var ic2drill = <ic2:drill:*>;
 var iridrill = <ic2:iridium_drill:*>;
 var ic2chain = <ic2:chainsaw:*>;
@@ -403,7 +406,7 @@ recipes.remove(<techreborn:machine_frame>);
 recipes.remove(<techreborn:machine_frame:1>);
 
 #interchangable machine frames
-recipes.addShapeless(<techreborn:machine_frame:1> * 1, [<ic2:resourece:13>]);
+recipes.addShapeless(<techreborn:machine_frame:1> * 1, [<ic2:resource:13>]);
 recipes.addShapeless(<techreborn:machine_frame> * 1, [<ic2:resource:12>]);
 
 #Make aluminium a blawt furnace thing
